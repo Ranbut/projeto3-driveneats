@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>DrivenEats</title>
+
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" type="image/x-icon" href="./assets/logo.svg">
+  </head>
+
+  <body>
+    <div class="top">
+      <p class="logo Margem-Esq">DrivenEats</p>
+      <p class="sub-Logo Margem-Esq">Sua comida em 6 minutos</p>
+    </div>
+
+    <div class="conteiner">
+      <p class="top-Scroll Margem-Esq">Primeiro, seu prato</p>
+      <div class="scroll">
+        <div class="itens Margem-Esq dish" onclick="ComidaSelecionada(this);">
+          <img src="./assets/images/comida1.jpg" />
+          <p class="produto">Cachorrão</p>
+          <p class="descricao">Um pouco de batata, um pouco de salada</p>
+          <p class="preco">R$ <strong>10,90</strong></p>
+          <ion-icon name="checkmark-circle"></ion-icon>
+        </div>
+        <div class="itens Margem-Esq dish" onclick="ComidaSelecionada(this);">
+          <img src="./assets/images/comida2.jpg" />
+          <p class="produto">Pizzona</p>
+          <p class="descricao">Um pouco de tudo</p>
+          <p class="preco">R$ <strong>24,90</strong></p>
+          <ion-icon name="checkmark-circle"></ion-icon>
+        </div>
+        <div class="itens Margem-Esq dish" onclick="ComidaSelecionada(this);">
+          <img src="./assets/images/comida3.jpg" />
+          <p class="produto">Macarrão bonzão</p>
+          <p class="descricao">Um pouco de salada</p>
+          <p class="preco">R$ <strong>15,90</strong></p>
+          <ion-icon name="checkmark-circle"></ion-icon>
+        </div>
+        <div class="itens Margem-Esq dish" onclick="ComidaSelecionada(this);">
+          <img src="./assets/images/comida3.jpg" />
+          <p class="produto">Feijoada</p>
+          <p class="descricao">Um pouco de cada bicho</p>
+          <p class="preco">R$ <strong>17,90</strong></p>
+          <ion-icon name="checkmark-circle"></ion-icon>
+        </div>
+      </div>
+      <p class="top-Scroll Margem-Esq">Agora, sua bebida</p>
+      <div class="scroll">
+        <div class="itens Margem-Esq drink" onclick="BebidaSelecionada(this);">
+          <img src="./assets/images/bebida1.jpg" />
+          <p class="produto">Pepsi</p>
+          <p class="descricao">Bem gelado!</p>
+          <p class="preco">R$ <strong>4,90</strong></p>
+          <ion-icon name="checkmark-circle"></ion-icon>
+        </div>
+        <div class="itens Margem-Esq drink" onclick="BebidaSelecionada(this);">
+          <img src="./assets/images/bebida2.jpg" />
+          <p class="produto">Água</p>
+          <p class="descricao">Bem gelado!</p>
+          <p class="preco">R$ <strong>1,85</strong></p>
+          <ion-icon name="checkmark-circle"></ion-icon>
+        </div>
+        <div class="itens Margem-Esq drink" onclick="BebidaSelecionada(this);">
+          <img src="./assets/images/bebida3.jpg" />
+          <p class="produto">Suco de Laranja</p>
+          <p class="descricao">Bem gelado!</p>
+          <p class="preco">R$ <strong>11,90</strong></p>
+          <ion-icon name="checkmark-circle"></ion-icon>
+        </div>
+        <div class="itens Margem-Esq drink" onclick="BebidaSelecionada(this);">
+          <img src="./assets/images/bebida4.jpg" />
+          <p class="produto">Guaraná</p>
+          <p class="descricao">Bem gelado!</p>
+          <p class="preco">R$ <strong>9,90</strong></p>
+          <ion-icon name="checkmark-circle"></ion-icon>
+        </div>
+      </div>
+      <p class="top-Scroll Margem-Esq">Por fim, sua sobremesa</p>
+      <div class="scroll">
+        <div
+          class="itens Margem-Esq dessert"
+          onclick="SobremesaSelecionada(this);"
+        >
+          <img src="./assets/images/sobremesa1.jpg" />
+          <p class="produto">Mousse de Maracujá</p>
+          <p class="descricao">compre uma e peça outra, você vai querer</p>
+          <p class="preco">R$ <strong>4,90</strong></p>
+          <ion-icon name="checkmark-circle"></ion-icon>
+        </div>
+        <div
+          class="itens Margem-Esq dessert"
+          onclick="SobremesaSelecionada(this);"
+        >
+          <img src="./assets/images/sobremesa2.jpg" />
+          <p class="produto">Gostosura de chocolate</p>
+          <p class="descricao">compre uma e peça outra, você vai querer</p>
+          <p class="preco">R$ <strong>6,90</strong></p>
+          <ion-icon name="checkmark-circle"></ion-icon>
+        </div>
+        <div
+          class="itens Margem-Esq dessert"
+          onclick="SobremesaSelecionada(this);"
+        >
+          <img src="./assets/images/sobremesa3.jpg" />
+          <p class="produto">Tortaça de limão</p>
+          <p class="descricao">compre uma e peça outra, você vai querer</p>
+          <p class="preco">R$ <strong>19,90</strong></p>
+          <ion-icon name="checkmark-circle"></ion-icon>
+        </div>
+        <div
+          class="itens Margem-Esq dessert"
+          onclick="SobremesaSelecionada(this);"
+        >
+          <img src="./assets/images/sobremesa4.jpg" />
+          <p class="produto">Pudim</p>
+          <p class="descricao">compre uma e peça outra, você vai querer</p>
+          <p class="preco">R$ <strong>7,90</strong></p>
+          <ion-icon name="checkmark-circle"></ion-icon>
+        </div>
+      </div>
+    </div>
+    <div class="confirma-pedido"></div>
+    <div class="barra">
+      <div class="Botao-Pedido" onclick="FinalizaPedido ();">
+        <p style="width: 200px;">Selecione os 3 itens para fechar o pedido</p>
+      </div>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script src="scripts.js"></script>
+  </body>
+</html>
