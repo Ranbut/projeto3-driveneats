@@ -1,8 +1,10 @@
-# projeto3-driveneats
+# [Driven Education](https://www.driven.com.br/) - Projeto 3 - DriveEats
 
-<img src="" alt="driveneats">
+<img width="50" src="https://github.com/Ranbut/projeto3-driveneats/blob/main/assets/logo.svg" alt="driveneats">
 
 [Acesse o site clicando aqui!](https://ranbut.github.io/projeto3-driveneats/);
+
+[Layout](https://github.com/Ranbut/projeto3-driveneats/blob/main/layout/DrivenEats%20-%20Layout.pdf);
 
 # Descrição
 
@@ -62,4 +64,4 @@ O site permite de forma fácil a escolha do seu combo, enviando em seguida o ped
     
 - Bônus 2: Confirme os dados antes de finalizar o pedido
     
-    - [ ]  Ao clicar em "Finalizar pedido", em vez de ir para o WhatsApp direto, primeiro revise a compra seguindo a tela Bônus disponível no Figma.
+    - [ ]  Ao clicar em "Finalizar pedido", em vez de ir para o WhatsApp direto, primeiro revise a compra seguindo a tela Bônus disponível no layout fornecido.
