@@ -64,4 +64,4 @@ O site permite de forma fácil a escolha do seu combo, enviando em seguida o ped
     
 - Bônus 2: Confirme os dados antes de finalizar o pedido
     
-    - [ ]  Ao clicar em "Finalizar pedido", em vez de ir para o WhatsApp direto, primeiro revise a compra seguindo a tela Bônus disponível no layout fornecido.
+    - [X]  Ao clicar em "Finalizar pedido", em vez de ir para o WhatsApp direto, primeiro revise a compra seguindo a tela Bônus disponível no layout fornecido.
