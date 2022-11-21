@@ -1,8 +1,10 @@
 # projeto3-driveneats
 
-<img src="" alt="driveneats">
+<img src="https://github.com/Ranbut/projeto3-driveneats/blob/main/assets/logo.svg" alt="driveneats">
 
 [Acesse o site clicando aqui!](https://ranbut.github.io/projeto3-driveneats/);
+
+[Layout](https://github.com/Ranbut/projeto3-driveneats/blob/main/layout/DrivenEats%20-%20Layout.pdf);
 
 # Descrição
 
