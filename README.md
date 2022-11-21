@@ -1,6 +1,6 @@
-# projeto3-driveneats
+# [Driven Education](https://www.driven.com.br/) - Projeto 2 - DriveEats
 
-<img src="https://github.com/Ranbut/projeto3-driveneats/blob/main/assets/logo.svg" alt="driveneats">
+<img width="50" src="https://github.com/Ranbut/projeto3-driveneats/blob/main/assets/logo.svg" alt="driveneats">
 
 [Acesse o site clicando aqui!](https://ranbut.github.io/projeto3-driveneats/);
 
